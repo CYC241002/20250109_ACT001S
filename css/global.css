@@ -1,0 +1,45 @@
+:root,[data-bs-theme=dark] {
+    --bs-body-bg: #091221;
+
+}
+
+.hero-section img {
+    min-height: 300px;
+    object-fit: cover;
+    filter: brightness(60%) contrast(95%);
+    max-height: 100vh;
+}
+
+.hero-section .description {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    text-align: center;
+    z-index: 100;
+}
+
+.detail-link {
+    min-height: 3.5em;
+    position: sticky; 
+    top: 3.5em;
+    z-index: 1000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.detail-link a {
+    width: 8vw;
+    min-width: 80px;
+    text-decoration: none;
+}
+
+.detail-link a .inner {
+    padding: 1em;
+    transition: .3s;
+    text-align: center;
+    color: #fff;
+}
+
+.detail-link a:hover .inner {
+    background-color: rgba(0, 0, 0, 0.5);
+}
