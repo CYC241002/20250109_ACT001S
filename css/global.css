@@ -1,6 +1,14 @@
 :root,[data-bs-theme=dark] {
     --bs-body-bg: #091221;
+    --bs-primary-bg: #0236a5;
+    --bs-primary-rgb: 2, 54, 165;
+    --bs-secondary-bg: #0585e6;
+    --bs-secondary-rgb: 5, 133, 230;
+}
 
+.btn.btn-primary {
+    --bs-btn-bg: #163473;
+    --bs-btn-hover-bg: #162647;
 }
 
 .hero-section img {
