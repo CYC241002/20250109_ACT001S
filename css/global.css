@@ -2,13 +2,13 @@
     --bs-body-bg: #091221;
     --bs-primary-bg: #0236a5;
     --bs-primary-rgb: 2, 54, 165;
-    --bs-secondary-bg: #0585e6;
-    --bs-secondary-rgb: 5, 133, 230;
+    --bs-secondary-bg: #162647;
+    --bs-secondary-rgb: 22, 38, 71;
 }
 
 .btn.btn-primary {
-    --bs-btn-bg: #163473;
-    --bs-btn-hover-bg: #162647;
+    --bs-btn-bg: #0236a5;
+    --bs-btn-hover-bg: #0585e6;
 }
 
 .hero-section img {
@@ -50,4 +50,13 @@
 
 .detail-link a:hover .inner {
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.feature p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.feature p::before {
+    content: '＃';
 }
