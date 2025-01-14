@@ -51,3 +51,12 @@
 .detail-link a:hover .inner {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+.feature p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.feature p::before {
+    content: '＃';
+}
