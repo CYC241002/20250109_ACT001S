@@ -11,11 +11,30 @@
     --bs-btn-hover-bg: #0585e6;
 }
 
-.hero-section img {
+* {
+    --tc-feature-pro-bg: #2a2e70;
+    --tc-feature-passion-bg: #f49430;
+    --tc-feature-fulfill-bg: #cd2e3d;
+    --tc-feature-wish-bg: #450640;
+}
+
+#headerCarousel .carousel-indicators button {
+    background-color: #fff;
+}
+
+#headerCarousel .carousel-control-prev-icon,
+#headerCarousel .carousel-control-next-icon {
+    filter: none;
+}
+
+#headerCarousel img, .hero-section img {
     min-height: 300px;
-    object-fit: cover;
-    filter: brightness(60%) contrast(95%);
     max-height: 100vh;
+    object-fit: cover;
+}
+
+.hero-section img {
+    filter: brightness(60%) contrast(95%);
 }
 
 .hero-section .description {
@@ -61,8 +80,24 @@
 .feature p {
     font-size: 1.2em;
     font-weight: bold;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .feature p::before {
     content: '＃';
+}
+
+.tc-feature .card {
+    height: 25em;
+}
+
+.tc-feature .card .card-img-top {
+    height: 10em;
+}
+
+.tc-feature .card .card-img-top ion-icon {
+    width: 2.5em;
+    height: 2.5em;
 }
