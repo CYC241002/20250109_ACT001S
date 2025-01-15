@@ -129,6 +129,10 @@ header.header {
     content: '＃';
 }
 
+.row {
+    margin-left: 0;
+}
+
 .tc-feature .card {
     height: 25em;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
@@ -145,4 +149,10 @@ header.header {
 
 .about {
     background: linear-gradient(180deg, var(--bs-body-bg) 0%, var(--bs-body-bg) 60%,var(--bs-light) 100%);
+}
+
+@media (max-width: 767.98px) {
+    .daily-content {
+        margin-top: 1em;
+    }
 }
